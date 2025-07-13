@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #004899;
+    color: white;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    background-color: #003377;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0055aa;
+  }
+  
